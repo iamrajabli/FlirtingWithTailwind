@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 
-<body class="bg-white h-full flex">
+<body class="bg-white h-screen">
 
     <div class="h-15 border-b-1 border-gray-100 w-full flex justify-between items-center px-5">
         <a href="#" class="text-2xl font-medium flex items-center text-proto">
@@ -18,11 +18,154 @@
         </a>
 
         <form action="#" class="w-1/3 ">
-            <input type="text" placeholder="Search" class="w-full bg-gray-100 h-10 px-4 placeholder-gray-500 rounded outline-none">
+            <input type="text" placeholder="Search"
+                class="w-full bg-gray-100 h-10 px-4 placeholder-gray-500 rounded outline-none">
         </form>
 
         <a href="#" class="bg-proto h-10 px-5 rounded text-white flex justify-center items-center">Login</a>
     </div>
+
+    <main class="h-full flex">
+        <aside class="w-64 border-r-1 border-gray-100 divide-solid divide-y divide-gray-100 flex flex-col">
+            <nav class="mb-3">
+                <a href="#"
+                    class="nav-link">Home
+                    Page</a>
+                <a href="#"
+                    class="nav-link">About</a>
+                <a href="#"
+                    class="nav-link">Contact</a>
+                <a href="#"
+                    class="nav-link">News</a>
+                <a href="#"
+                    class="nav-link">Blog</a>
+                <a href="#"
+                    class="nav-link">Settings</a>
+            </nav>
+
+            <nav class="mt-4 pt-4">
+                <a href="#"
+                    class="nav-link">HTML</a>
+                <a href="#"
+                    class="nav-link">PHP</a>
+                <a href="#"
+                    class="nav-link">Javascript</a>
+                <a href="#"
+                    class="nav-link">Laravel</a>
+                <a href="#"
+                    class="nav-link">React</a>
+                <a href="#"
+                    class="nav-link">Tailwindcss</a>
+            </nav>
+
+            <div class="mt-auto pt-3  px-4">
+                <button
+                    class="bg-gray-800 dark:bg-white hover:bg-gray-600 w-full transition-colors text-white dark:text-gray-800 h-10 rounded flex items-center px-4 text-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px"
+                        viewBox="0 0 24 24" width="24px" class="fill-current mr-2">
+                        <g>
+                            <rect fill="none" height="24" width="24" />
+                        </g>
+                        <g>
+                            <g>
+                                <path
+                                    d="M15.5,22c1.05,0,2.05-0.16,3-0.46c-4.06-1.27-7-5.06-7-9.54s2.94-8.27,7-9.54C17.55,2.16,16.55,2,15.5,2 c-5.52,0-10,4.48-10,10S9.98,22,15.5,22L15.5,22z" />
+                            </g>
+                        </g>
+                    </svg>
+                    Dark Mode
+                </button>
+            </div>
+        </aside>
+
+        <section class="py-6 px-10">
+            <div class="mx-auto max-w-screen-xl flex flex-col gap-15">
+                <div>
+                    <h2 class="text-3xl font-bold text-proto">Kendine değer kat!</h2>
+                    <p>İyi bir kariyer için, doğru bir başlangıç gerekir. Prototürk'de bir çok dil ve teknolojiye ait
+                        derslerle doğru bir başlangıç yapmaya hazırsın!</p>
+                </div>
+
+                <div class="grid grid-cols-10 gap-7">
+                    <div class="col-span-2">
+                        <a href="#" class="border flex flex-col px-4 py-7 rounded items-center">
+                            <span class="w-24 h-24 border-red-500 border rounded-full grid place-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                                    <path
+                                        d="M8.5 23.75q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm9.25-8.5q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm12.5 0q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm9.25 8.5q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.75 1.3-3.125t3.2-1.375q1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm-26.2 20.5q-2.1 0-3.45-1.575T8.5 38.95q0-2.1 1.275-3.725T12.5 32.1q1.1-1.1 2.05-2.325.95-1.225 1.8-2.525 1.45-2.2 3.25-4.1 1.8-1.9 4.4-1.9 2.6 0 4.425 1.9 1.825 1.9 3.275 4.15.85 1.3 1.775 2.5.925 1.2 2.025 2.3 1.45 1.5 2.725 3.125Q39.5 36.85 39.5 38.95q0 2.15-1.35 3.725-1.35 1.575-3.45 1.575-2.7 0-5.35-.45-2.65-.45-5.35-.45-2.7 0-5.35.45-2.65.45-5.35.45Z" />
+                                </svg>
+                            </span>
+                            <span class="inline-flex h-8 items-center mt-3 px-3 text-white bg-red-500">HTML</span>
+                        </a>
+                    </div>
+                    <div class="col-span-2">
+                        <a href="#" class="border flex flex-col px-4 py-7 rounded items-center">
+                            <span class="w-24 h-24 border-red-500 border rounded-full grid place-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                                    <path
+                                        d="M8.5 23.75q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm9.25-8.5q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm12.5 0q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm9.25 8.5q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.75 1.3-3.125t3.2-1.375q1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm-26.2 20.5q-2.1 0-3.45-1.575T8.5 38.95q0-2.1 1.275-3.725T12.5 32.1q1.1-1.1 2.05-2.325.95-1.225 1.8-2.525 1.45-2.2 3.25-4.1 1.8-1.9 4.4-1.9 2.6 0 4.425 1.9 1.825 1.9 3.275 4.15.85 1.3 1.775 2.5.925 1.2 2.025 2.3 1.45 1.5 2.725 3.125Q39.5 36.85 39.5 38.95q0 2.15-1.35 3.725-1.35 1.575-3.45 1.575-2.7 0-5.35-.45-2.65-.45-5.35-.45-2.7 0-5.35.45-2.65.45-5.35.45Z" />
+                                </svg>
+                            </span>
+                            <span class="inline-flex h-8 items-center mt-3 px-3 text-white bg-red-500">HTML</span>
+                        </a>
+                    </div>
+                    <div class="col-span-2">
+                        <a href="#" class="border flex flex-col px-4 py-7 rounded items-center">
+                            <span class="w-24 h-24 border-red-500 border rounded-full grid place-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                                    <path
+                                        d="M8.5 23.75q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm9.25-8.5q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm12.5 0q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm9.25 8.5q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.75 1.3-3.125t3.2-1.375q1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm-26.2 20.5q-2.1 0-3.45-1.575T8.5 38.95q0-2.1 1.275-3.725T12.5 32.1q1.1-1.1 2.05-2.325.95-1.225 1.8-2.525 1.45-2.2 3.25-4.1 1.8-1.9 4.4-1.9 2.6 0 4.425 1.9 1.825 1.9 3.275 4.15.85 1.3 1.775 2.5.925 1.2 2.025 2.3 1.45 1.5 2.725 3.125Q39.5 36.85 39.5 38.95q0 2.15-1.35 3.725-1.35 1.575-3.45 1.575-2.7 0-5.35-.45-2.65-.45-5.35-.45-2.7 0-5.35.45-2.65.45-5.35.45Z" />
+                                </svg>
+                            </span>
+                            <span class="inline-flex h-8 items-center mt-3 px-3 text-white bg-red-500">HTML</span>
+                        </a>
+                    </div>
+                    <div class="col-span-2">
+                        <a href="#" class="border flex flex-col px-4 py-7 rounded items-center">
+                            <span class="w-24 h-24 border-red-500 border rounded-full grid place-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                                    <path
+                                        d="M8.5 23.75q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm9.25-8.5q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm12.5 0q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm9.25 8.5q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.75 1.3-3.125t3.2-1.375q1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm-26.2 20.5q-2.1 0-3.45-1.575T8.5 38.95q0-2.1 1.275-3.725T12.5 32.1q1.1-1.1 2.05-2.325.95-1.225 1.8-2.525 1.45-2.2 3.25-4.1 1.8-1.9 4.4-1.9 2.6 0 4.425 1.9 1.825 1.9 3.275 4.15.85 1.3 1.775 2.5.925 1.2 2.025 2.3 1.45 1.5 2.725 3.125Q39.5 36.85 39.5 38.95q0 2.15-1.35 3.725-1.35 1.575-3.45 1.575-2.7 0-5.35-.45-2.65-.45-5.35-.45-2.7 0-5.35.45-2.65.45-5.35.45Z" />
+                                </svg>
+                            </span>
+                            <span class="inline-flex h-8 items-center mt-3 px-3 text-white bg-red-500">HTML</span>
+                        </a>
+                    </div>
+                    <div class="col-span-2">
+                        <a href="#" class="border flex flex-col px-4 py-7 rounded items-center">
+                            <span class="w-24 h-24 border-red-500 border rounded-full grid place-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                                    <path
+                                        d="M8.5 23.75q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm9.25-8.5q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm12.5 0q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.9 1.3-3.2 1.3-1.3 3.2-1.3 1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm9.25 8.5q-1.9 0-3.2-1.3-1.3-1.3-1.3-3.2 0-1.75 1.3-3.125t3.2-1.375q1.9 0 3.2 1.3 1.3 1.3 1.3 3.2 0 1.9-1.3 3.2-1.3 1.3-3.2 1.3Zm-26.2 20.5q-2.1 0-3.45-1.575T8.5 38.95q0-2.1 1.275-3.725T12.5 32.1q1.1-1.1 2.05-2.325.95-1.225 1.8-2.525 1.45-2.2 3.25-4.1 1.8-1.9 4.4-1.9 2.6 0 4.425 1.9 1.825 1.9 3.275 4.15.85 1.3 1.775 2.5.925 1.2 2.025 2.3 1.45 1.5 2.725 3.125Q39.5 36.85 39.5 38.95q0 2.15-1.35 3.725-1.35 1.575-3.45 1.575-2.7 0-5.35-.45-2.65-.45-5.35-.45-2.7 0-5.35.45-2.65.45-5.35.45Z" />
+                                </svg>
+                            </span>
+                            <span class="inline-flex h-8 items-center mt-3 px-3 text-white bg-red-500">HTML</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-gradient-to-br from-twitter to-blue-600 p-4 rounded-md text-white flex flex-col lg:flex-row items-center">
+                    <div class="flex-shrink-0 w-20 pl-0 lg:pl-2 mb-4 lg:mb-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 0 24 24" width="50px"
+                            class="fill-current text-white">
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path
+                                d="M20 5h-9.12L10 2H4c-1.1 0-2 .9-2 2v13c0 1.1.9 2 2 2h7l1 3h8c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zM7.17 14.59c-2.25 0-4.09-1.83-4.09-4.09s1.83-4.09 4.09-4.09c1.04 0 1.99.37 2.74 1.07l.07.06-1.23 1.18-.06-.05c-.29-.27-.78-.59-1.52-.59-1.31 0-2.38 1.09-2.38 2.42s1.07 2.42 2.38 2.42c1.37 0 1.96-.87 2.12-1.46H7.08V9.91h3.95l.01.07c.04.21.05.4.05.61 0 2.35-1.61 4-3.92 4zm6.03-1.71c.33.6.74 1.18 1.19 1.7l-.54.53-.65-2.23zm.77-.76h-.99l-.31-1.04h3.99s-.34 1.31-1.56 2.74c-.52-.62-.89-1.23-1.13-1.7zM21 20c0 .55-.45 1-1 1h-7l2-2-.81-2.77.92-.92L17.79 18l.73-.73-2.71-2.68c.9-1.03 1.6-2.25 1.92-3.51H19v-1.04h-3.64V9h-1.04v1.04h-1.96L11.18 6H20c.55 0 1 .45 1 1v13z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h6 class="text-xl mb-1">Twitter'da <strong class="font-semibold">@prototurkcom</strong>
+                            hesabını takip etmeyi unutma!</h6>
+                        <p>Hazırladığımız son videolardan anında haberdar olmak için twitter hesabımızı takip etmeyi
+                            unutma!</p>
+                        <a href="#" class="bg-white h-11 px-5 inline-flex items-center rounded text-black mt-4">Takip
+                            et</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
 

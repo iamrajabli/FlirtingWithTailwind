@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+@layer components {
+    .nav-link {
+        @apply flex items-center h-10 rounded px-3 text-sm text-proto font-medium hover:bg-gray-100 transition-all
+    }
+}
+
 @layer base {
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;0,900;1,500&display=swap');
 
